@@ -1,4 +1,4 @@
-export default function Main(){
+export default function Cardlist(){
     return(
         <main className="py-5 first:mt-0">
             <section className="flex mt-5 justify-center">
@@ -27,7 +27,6 @@ export default function Main(){
                     width={500}
                     height={200}
                     src={'./Mvsdc.jpg'}/>
-
                 </div>
             </section>
         </main>

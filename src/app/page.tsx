@@ -1,15 +1,15 @@
-import  Main  from "./componets/main"
+import  Cardlist  from "./componets/cardlist"
 import Header from "./componets/header"
-import Section from "./componets/section"
 import Footer from "./componets/footer"
+import Banner from "./componets/banner"
 
 export default function Home() {
   return (
   <>
     <Header/>
-    <Section/>
-    <Main/>
-    <Footer/>
+    <Banner/>
+    <Cardlist/>
+    <Footer/> 
   </>
   )
 }
