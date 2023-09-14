@@ -1,8 +1,10 @@
 import Image from "next/image"
 
 export default function Header(){
+    
     return(
     <header className="text-white bg-black flex items-center p-5 justify-between shadow-lg rounded-bl-lg rounded-br-lg">
+        
         <Image className="h-[100%]"
         width={100}
         height={50}
