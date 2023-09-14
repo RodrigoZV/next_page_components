@@ -1,3 +1,5 @@
+import Image from "next/image"
+
 export default function Cardlist(){
     return(
         <main className="py-5 first:mt-0">
@@ -8,10 +10,11 @@ export default function Cardlist(){
                         <span>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Ducimus, sunt. Quas dolore aspernatur nostrum itaque tenetur, id numquam deleniti sit tempora, earum illum voluptas corrupti neque. Vel totam aperiam maiores.</span>
                     </div>
 
-                    <img className="h-[100%}" 
+                    <Image className="h-[100%}" 
                     width={500}
                     height={200}
-                    src={'./Group1.png'}/>
+                    alt="Junção de hérois"
+                    src={'/Group1.png'}/>
 
                 </div>
             </section>
