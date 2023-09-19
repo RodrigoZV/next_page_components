@@ -1,4 +1,6 @@
 import Image from "next/image"
+import Link from "next/link"
+import Theseven from "../theseven/page"
 
 export default function Header(){
     
@@ -9,12 +11,11 @@ export default function Header(){
         width={100}
         height={50}
         alt="Logo"
-        src={'/Group2.png'}/>
+        src={'/nnt.png'}/>
 
         <nav className="flex" >
-            <span className="px-3 py-1 hover:bg-yellow-400 active:bg-yellow-500 focus:ring-yellow-300 rounded full cursor-pointer">Personagem</span>
-            <span className="px-3 py-1 hover:bg-yellow-400 active:bg-yellow-500 focus:ring-yellow-300 rounded full cursor-pointer">Hérois</span>
-            <span className="px-3 py-1 hover:bg-yellow-400 active:bg-yellow-500 focus:ring-yellow-300 rounded full cursor-pointer">Vilões</span>
+            <Link href="/theseven" className="px-3 py-1 hover:bg-yellow-400 active:bg-yellow-500 focus:ring-yellow-300 rounded full cursor-pointer">Sete pecados capitais</Link>
+            <span className="px-3 py-1 hover:bg-yellow-400 active:bg-yellow-500 focus:ring-yellow-300 rounded full cursor-pointer">Dez mandamentos</span>
 
             <button className="px-3 py-1 hover:bg-yellow-400 active:bg-yellow-500 focus:ring-yellow-300 rounded full cursor-pointer">
                 <span>Entrar</span>
