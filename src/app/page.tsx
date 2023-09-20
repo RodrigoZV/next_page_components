@@ -7,10 +7,8 @@ import Banner from "./componets/banner"
 export default function Home() {
   return (
   <>
-    <Header/>
     <Banner/>
     <Cardlist/>
-    <Footer/> 
   </>
   )
 }
