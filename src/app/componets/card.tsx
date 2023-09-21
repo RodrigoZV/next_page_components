@@ -1,15 +1,14 @@
 import Image from "next/image"
 
-export default function Cardlist(){
+export default function Card(){
 
     const grupo = {
         name:'Dez Mandamentos'
     }
 
-    return(
-
-        <main className="py-5 first:mt-0">
-            <section className="flex mt-5 justify-center">
+return(
+    <>
+    <section className="flex mt-5 justify-center">
                 <div className="bg-gradient-to-r gap-15 from-transparent via-yellow-600 to-transparent p-6 shadow-lg flex">
                     <div className="text-white flex flex-col w-[50%] justify-center">
                         <h1 className="text-5xl font-bold flex justify-center">Sete pecados capitais</h1>
@@ -26,7 +25,7 @@ export default function Cardlist(){
             </section>
 
             <section className="flex mt-5 justify-center">
-                <div className="bg-gradient-to-r gap-15 from-white to-detail p-6 shadow-lg flex">
+                <div className="bg-gradient-to-r gap-15 from-transparent via-white to-transparent p-6 shadow-lg flex">
                     <div className="text-black flex flex-col w-[50%] justify-center">
                         <h1 className="text-5xl font-bold flex justify-center">{grupo.name}</h1>
                         <span className="text-black">Os Dez Guerreiros de Elite do Clã Demônio são verdadeiros titãs escolhidos pessoalmente pelo Rei Demônio, cada um dotado de um Mandamento, um poder único conferido pelo próprio Rei. <br/> Este poder não apenas dá a eles força sobre-humana, mas também impõe uma maldição inescapável a qualquer um que ouse quebrar suas regras específicas. <br/> Nesta jornada, você explorará o incrível mundo dos Dez Guerreiros, testemunhando seu poder avassalador e as maldições que recaem sobre aqueles que desafiam a ordem imposta. <br/> Cada membro tem sua própria história fascinante e uma regra única que não deve ser quebrada. Prepare-se para conhecer os seres mais poderosos que já caminharam sobre Britânia, os Dez Guerreiros Supremos do Clã Demônio.</span>
@@ -40,6 +39,10 @@ export default function Cardlist(){
 
                 </div>
             </section>
-        </main>
-    )
+    </>
+)
+
+
+
+    
 }
