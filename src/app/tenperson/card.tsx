@@ -9,18 +9,18 @@ interface IPropsCard {
 
 export default function Card(props:IPropsCard){
 return(
-    <div className="w-[33%] flex flex-col justify-center items-center">
+    <div className="w-[33%] flex flex-col justify-baseline items-center p-5">
         <div className="">
-            <h1 className="text-white text-center">{props.title}</h1>
+            <h1 className="text-white text-center font-bold text-2xl mb-1">{props.title}</h1>
         </div>
-        
+
         <Image className="h-[100%]"
-        width={290}
-        height={250}
-        alt="Logo"
-        src={props.img}/>
+            width={290}
+            height={250}
+            alt="person"
+            src={props.img}/>
         
-        <span className="text-white flex text-center">{props.desc}</span>
+        <span className="text-base text-white flex p-5 text-center">{props.desc}</span>
 
     </div>
 )  
