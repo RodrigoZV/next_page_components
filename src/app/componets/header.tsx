@@ -7,11 +7,13 @@ export default function Header(){
     return(
     <header className="text-white bg-black flex items-center p-5 justify-between border-b-[1px] border-white">
         
-        <Image className="h-[100%]"
-        width={100}
-        height={50}
-        alt="Logo"
-        src={'/nnt.png'}/>
+        <Link href="http://localhost:3000/">
+            <Image className="h-[100%]"
+            width={100}
+            height={50}
+            alt="Logo"
+            src={'/nnt.png'}/>
+        </Link>
 
         <nav className="flex" >
             <Link href="/theseven" className="px-3 py-1 hover:bg-yellow-400 active:bg-yellow-500 focus:ring-yellow-300 rounded full cursor-pointer">Sete pecados capitais</Link>
