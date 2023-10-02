@@ -13,7 +13,7 @@ export default function Cardlist(){
                 <div className="bg-gradient-to-r gap-15 from-transparent via-yellow-600 to-transparent p-6 shadow-lg flex">
                     <div className="text-white flex flex-col w-[50%] justify-center">
                         <h1 className="text-5xl font-bold flex justify-center">Sete pecados capitais</h1>
-                        <span>Conheça a ordem mais poderosa e implacável do Reino de Liones - os Cavaleiros Sagrados dos Sete Pecados Capitais. Esta formidável unidade é composta por sete criminosos brutais, cada um condenado por crimes graves e marcados com os símbolos de sete bestas lendárias. <br/>  Os Sete Pecados Capitais não apenas lideram a trama, mas também conquistam os corações dos fãs em todo o mundo com suas personalidades únicas e histórias envolventes.</span>
+                        <span>Conheça a ordem mais poderosa e implacável do Reino de Liones - Os Cavaleiros Sagrados dos Sete Pecados Capitais. Esta formidável unidade é composta por sete criminosos brutais, cada um condenado por crimes graves e marcados com os símbolos de sete bestas lendárias. <br/>  Os Sete Pecados Capitais não apenas lideram a trama, mas também conquistam os corações dos fãs em todo o mundo com suas personalidades únicas e histórias envolventes.</span>
                     </div>
 
                     <Image className="h-[100%}" 
